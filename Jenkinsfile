@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Starting Build'
-                sh 'g++ -o pes2ug20cs021.exe hello.cpp'
+                sh 'g++ -o pes2ug20cs021.exe helloa.cpp'
                 echo 'Build Completed'
             }
         }
